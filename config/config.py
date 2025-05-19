@@ -18,28 +18,28 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "19769686"))
+API_HASH = getenv("API_HASH", "515b64f5d2d955cdd6aa85a808fd4cb4")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "7829928650:AAH1hXo9V1HQOFiduCGuy4ESVyHQuC1u9E0")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://TEAMBABY01:UTTAMRATHORE09@cluster0.vmjl9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002567375491"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Sara")
 
-OWNER_ID = int(getenv("OWNER_ID", None))
+OWNER_ID = int(getenv("OWNER_ID", "6671591267"))
 
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
-BOT_ID = getenv("BOT_ID")
+BOT_ID = getenv("BOT_ID", "7829928650")
 
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/amin72827/AlexaMusic")
 
@@ -89,7 +89,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 COOKIES = getenv("COOKIES", None)
 # https://batbin.me
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "AgAf70YACeAtzVR-4Xi_VC9aB1r9JovqL2-fjrxKKme54fVs8azdlTgoTkWR2Hxq5G6i8PNqJZf5WeIUK4BRLx8mNF-ceKbXr1sgoyUmDR-FN-dMxsc1oXr7bwPMBDOnj_VKYPmimpDIL-Ux28IY86d3C-7Oib-Fi9c4PmRh3bCQpLpvrW5vjNRFRHaZNZaghNM7JxeyBzXEKPXRIxuybRkwKB-A_XSQ5oe1Egc45vk9XxgiJ-JGAGE03PJzKJ_pcejrZ65bjNiKlfW1SA9jlSRcwQMBBlNmOTL468Z49QuqBGERhgrf1eos92mhKMHB9djShkaUXib1hz0wXzbSO_u5aJn28wAAAAHLmitTAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
