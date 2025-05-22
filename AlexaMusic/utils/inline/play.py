@@ -51,16 +51,16 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="𝖮𝗐𝗇𝖾𝗋", url="https://t.me/Jankari_Ki_Duniya"),
+            InlineKeyboardButton(text="𝖮𝗐𝗇𝖾𝗋", url="https://Elsur_psixoloq"),
         ],
         [
             InlineKeyboardButton(
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
-            InlineKeyboardButton(text="𝖲𝗎𝗉𝗉𝗈𝗋𝗍 💬", url=SUPPORT_GROUP),
+            InlineKeyboardButton(text="𝖲𝗎𝗉𝗉𝗈𝗋𝗍 💬", url=https://t.me/NergizSupportGrup),
         ],
-        [InlineKeyboardButton(text="𝖴𝗉𝖽𝖺𝗍𝖾𝗌 📢", url=SUPPORT_CHANNEL)],
+        [InlineKeyboardButton(text="𝖴𝗉𝖽𝖺𝗍𝖾𝗌 📢", url=https://t.me/Anonim_Sair)],
     ]
 
 
@@ -71,21 +71,21 @@ def telegram_markup_timer(_, videoid, chat_id, played, dur):
             InlineKeyboardButton(
                 text=f"{played} •{bar}• {dur}",
                 callback_data="GetTimer",
-            )
+            ) 
         ],
         [
             InlineKeyboardButton(
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="𝖮𝗐𝗇𝖾𝗋", url="https://t.me/Jankari_Ki_Duniya"),
+            InlineKeyboardButton(text="𝖮𝗐𝗇𝖾𝗋", url="https://t.me/Elsur_psixoloq"),
         ],
         [
             InlineKeyboardButton(
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-            InlineKeyboardButton(text="𝖲𝗎𝗉𝗉𝗈𝗋𝗍 💬", url=SUPPORT_GROUP),
+            InlineKeyboardButton(text="𝖲𝗎𝗉𝗉𝗈𝗋𝗍 💬", url=https://t.me/NergizSupportGrup),
         ],
     ]
 
@@ -100,14 +100,14 @@ def stream_markup(_, videoid, chat_id):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="𝖮𝗐𝗇𝖾𝗋", url="https://t.me/Jankari_Ki_Duniya"),
+            InlineKeyboardButton(text="𝖮𝗐𝗇𝖾𝗋", url="https://t.me/Elsur_psixoloq"),
         ],
         [
             InlineKeyboardButton(
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-            InlineKeyboardButton(text="𝖲𝗎𝗉𝗉𝗈𝗋𝗍 💬", url=SUPPORT_GROUP),
+            InlineKeyboardButton(text="𝖲𝗎𝗉𝗉𝗈𝗋𝗍 💬", url=https://t.me/NergizSupportGrup),
         ],
     ]
 
