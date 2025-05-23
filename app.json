@@ -2,6 +2,7 @@
     "name": "Alexa Music",
     "description": "Telegram streaming bot with some useful features, written in Python. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
     "logo": "https://telegra.ph/file/ba967503682a55beaedd3.png",
+    "stack": "heroku-22",
     "keywords": [
     "python",
     "python3",
