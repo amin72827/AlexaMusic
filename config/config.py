@@ -41,7 +41,7 @@ BOT_ID = getenv("BOT_ID")
 
 HEROKU_APP_NAME = "nergizmusicbot"
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Elsur-psixoloq/AlexaMusic")
+UPSTREAM_REPO = "https://github.com/Elsur-psixoloq/AlexaMusic"
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
