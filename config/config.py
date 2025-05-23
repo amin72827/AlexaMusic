@@ -21,7 +21,7 @@ load_dotenv()
 API_ID = 19769686
 API_HASH = "515b64f5d2d955cdd6aa85a808fd4cb4"
 
-BOT_TOKEN = 7342273596:AAFnVl_X1FYGgIpOTUVYuYRVPIGHVO_E7EE
+BOT_TOKEN = "7342273596:AAFnVl_X1FYGgIpOTUVYuYRVPIGHVO_E7EE"
 
 MONGO_DB_URI = "mongodb+srv://TEAMBABY01:UTTAMRATHORE09@cluster0.vmjl9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
