@@ -21,7 +21,7 @@ load_dotenv()
 API_ID = 19769686
 API_HASH = "515b64f5d2d955cdd6aa85a808fd4cb4"
 
-BOT_TOKEN = "7342273596:AAFnVl_X1FYGgIpOTUVYuYRVPIGHVO_E7EE"
+BOT_TOKEN = "7340381347:AAFfVgtVNSyFCX-XNJav0gDGbRdXUODDRXA"
 
 MONGO_DB_URI = "mongodb+srv://TEAMBABY01:UTTAMRATHORE09@cluster0.vmjl9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
@@ -29,9 +29,9 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-LOG_GROUP_ID = -1002567375491
+LOG_GROUP_ID = --1002620193757
 
-MUSIC_BOT_NAME = "Nərgiz Music"
+MUSIC_BOT_NAME = "Xezer Music"
 
 OWNER_ID = 6671591267
 
@@ -39,7 +39,7 @@ HEROKU_API_KEY = "HRKU-d7849f0d-bd49-417a-9a6f-1453c10ad58a"
 
 BOT_ID = getenv("BOT_ID")
 
-HEROKU_APP_NAME = "nergizmusicbot"
+HEROKU_APP_NAME = "xezermusicrobot"
 
 UPSTREAM_REPO = "https://github.com/Elsur-psixoloq/AlexaMusic"
 
